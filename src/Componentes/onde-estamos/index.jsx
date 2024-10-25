@@ -26,7 +26,7 @@ const OndeEstamos = () => {
           <p>
             Possuir uma allowlist da Cidade dos Anjos{" "}
             <a
-              href="https://discord.gg/DWf2ZxYH"
+              href="https://discord.gg/cidadedosanjosrp"
               target="_blank"
               className="link"
             >

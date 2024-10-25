@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
-import about_img1 from "../../assets/yankiis.png";
+import image_yankiis1 from '../../assets/yankiis.png'
 
 const About = () => {
   return (
     <div id="sobre-nos" className="about-us">
       <div className="about-left">
         <div data-aos="fade-up" data-aos-duration="3000">
-          <img src={about_img1} alt="yankii" />
+          <img src={image_yankiis1} alt="yankii" />
         </div>
       </div>
 
