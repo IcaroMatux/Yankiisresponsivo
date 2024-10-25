@@ -7,7 +7,7 @@ import yankiikatana from "../../assets/yankiis-katana.png";
 const yankii = () => {
   return (
     <div
-      className="yankii yankii-container"
+      className="yankii yankii-container" id="home"
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500"
