@@ -1,0 +1,215 @@
+.contato {
+  /* margin-left: 100px; */
+  flex-direction: column;
+}
+
+.contato1 {
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.coluna-contato {
+  width: 100%;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 42px;
+  text-align: center;
+
+}
+.coluna-contato .icons {
+  width:48px;
+  height: 48px;
+}
+
+.mini-insta {
+   /* width: 35px;
+  margin-top: 30px;
+  margin-left: 35px;
+  position: absolute; */
+}
+
+.envelope-msgs {
+  width: 35px;
+  /* margin-top: 30px;
+  margin-left: 35px; */
+}
+
+.contact-item {
+  display: flex; 
+  gap:1rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.emailyankiis {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* margin-left: 80px;
+  margin-top: -37px; */
+  /* position: relative; */
+}
+
+.insta-yankii {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* margin-left: 80px; */
+  /* margin-top: 42px; */
+  /* position: relative; */
+}
+
+.insta-yankii {
+  color: #000;
+  text-decoration: none;
+}
+
+.insta-yankii:hover {
+  text-decoration: underline;
+}
+
+.texto {
+  font-size: 20px;
+  margin-top: 50px;
+  flex-basis: 48%;
+  color: #000;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 900px;
+}
+
+.btn-submit {
+  /* min-width: 90px; */
+  /* align-self: flex-start; */
+  /* margin-left: 50px; */
+  margin:0 auto;
+  background-color: #000;
+  width: 50%;
+  margin-top: 20px;
+  /* margin-left: 38%; */
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: rgb(97, 240, 250);
+  padding: 10px 25px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 4px;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.coluna-contato-form {
+  /* margin-right: 300px; */
+  /* width: 20%; */
+  min-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 250px; */
+}
+
+label{
+  font-weight: bold;
+}
+input, textarea {
+  padding: .5rem 1rem;
+  border-radius: .7rem
+}
+
+/* -----------------------------media query -------------------------------- */
+
+
+
+@media (max-width: 576px) {
+
+  .coluna-contato {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+
+  .coluna-contato-form {
+    min-width: 300px;
+    padding: 0.5rem;
+  }
+  /* .contato {
+    margin-left: 80px;
+  }
+  .informacoes {
+    flex-direction: column;
+  }
+
+  .contato1 {
+    margin-bottom: 50px;
+  }
+
+  .coluna-contato {
+    display: column;
+    width: 100%;
+  }
+
+  .coluna-contato h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -80px;
+    margin-top: -40px;
+  }
+
+  .texto {
+    margin-top: 20px;
+    margin-left: -65px;
+  }
+
+  .mini-insta {
+    margin-left: -140px;
+    margin-top: 30px;
+  }
+
+  .insta-yankii {
+    margin-left: -80px;
+  }
+
+  .envelope-msgs {
+    margin-left: -140px;
+  }
+
+  .emailyankiis {
+    margin-left: -80px;
+  }
+
+  .btn-submit {
+    margin-left: 50px;
+  }
+
+  .coluna-contato-form {
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 10px;
+  } */
+}

@@ -1,0 +1,88 @@
+.here {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 25%; */
+}
+
+.comojogar-texto h2 {
+  font-size: 54px;
+  margin-top: 50px;
+}
+
+.comojogar-texto h2 span {
+  font-size: 72px;
+  font-family: "SpriteGraffitiShadow";
+}
+
+.comojogar-texto p {
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.numeros {
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container-numeros {
+  background-image: url("../../assets/Caixa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: start;
+  /* max-width: 666px; */
+  width: 100%;
+  margin: 0 auto;
+}
+.container-numeros img {
+  margin-left: -2%;
+  /* max-width: 180px; */
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(97, 240, 250);
+}
+
+.numeros img {
+  width: 150px;
+  display: block;
+}
+
+/* -------------------------- media query -------------------------- */
+
+@media (max-width: 576px) {
+  .here {
+    margin-left: 0;
+  }
+
+  .comojogar-texto {
+    text-align: center;
+  }
+
+  .container-numeros {
+    background-size: contain;
+    width: 90%;
+    /* margin-left: 120px; */
+  }
+
+  .numeros {
+    /* margin-left: -100px; */
+    width: 100%;
+  }
+}
